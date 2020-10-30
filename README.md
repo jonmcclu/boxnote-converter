@@ -12,5 +12,11 @@ Python script to convert Box's proprietary note format (.boxnote) into either HT
   
 ### Using the Script
 
-The simplest method for running the script is utilizing a program like Visual Studio Code or PyCharm, both of which will
-detect
+- download your Box files to your computer
+- change the source directory path in settings.json to where your Box files are located.
+  - Windows machines will need to use double backslashes in the filenames. For example:
+    - Good:  `C:\\Users\\Jonas\\Downloads\\2020-09-23-wss-boxmigration-backup`
+    - Bad:  `C:\Users\Jonas\Downloads\2020-09-23-wss-boxmigration-backup`
+- open a terminal in the repository's directory
+- (first time use) ```pipenv install```
+- ```pipenv run python main.py```

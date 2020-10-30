@@ -20,3 +20,12 @@ Python script to convert Box's proprietary note format (.boxnote) into either HT
 - open a terminal in the repository's directory
 - (first time use) ```pipenv install```
 - ```pipenv run python main.py```
+
+### Formatting Issues
+
+This script relies on the Python package `boxnotes2html`. Please refer to their webpage 
+(https://pypi.org/project/boxnotes2html/) for up-to-date issues.
+
+- Images are not included
+- Tables will be converted to plain text
+- Lists will only be converted to asterisks or numbers, depending on the type of list.

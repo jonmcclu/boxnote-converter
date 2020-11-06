@@ -59,7 +59,6 @@ def convert_log(entry: str) -> None:
 
 
 def main():
-    print(boxnotes2html.__file__) # check where these module files are located
     settings = import_settings()
     source = settings['source_directory']
 
@@ -79,4 +78,4 @@ def main():
 
 main()
 
-# pyinstaller --windowed --add-data="C:\Users\Jonas\.virtualenvs\boxnote-converter-2EEu4ZAb\lib\site-packages\boxnotes2html:boxnotes2html" --onefile exe-builder.py
+

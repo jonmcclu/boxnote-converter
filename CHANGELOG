@@ -2,3 +2,6 @@ November 06, 20202:
     - Included a log ('converter.log') to show successful conversions and errors.
     - Changed to replace the .boxnote files with the new Word documents, rather than creating a different directory.
     - Included TypeError exception handling for the 'convert_boxnote' function
+    - Added an executable for Linux machines (tested on Manjaro w/ Kernel 5.9)
+    - Added an executable for Windows machines (tested on Windows 10)
+    - Added a fallback prompt to select the Box files directory
